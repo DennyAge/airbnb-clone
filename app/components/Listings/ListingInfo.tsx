@@ -6,7 +6,6 @@ import useCountries from '@/app/hooks/useCountries';
 import Avatar from '@/app/components/Avatar';
 import ListingCategory from '@/app/components/Listings/ListingCategory';
 import dynamic from 'next/dynamic';
-import { useMemo } from 'react';
 
 const Map = dynamic( () => import( '@/app/components/Map' ), {
   ssr: false
